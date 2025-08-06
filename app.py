@@ -1,4 +1,9 @@
-
+# 仮想環境の作成コマンド python -m venv env
+# 仮想環境の起動コマンド Windows: env\Scripts\activate.bat
+# インストール済みパッケージの確認コマンド pip list
+# アプリの起動コマンド streamlit run app.py
+# streamlitのインストールコマンド pip install streamlit
+# 仮想環境の停止コマンド Ctrl + C
 import streamlit as st
 
 st.title("サンプルアプリ②: 少し複雑なWebアプリ")
